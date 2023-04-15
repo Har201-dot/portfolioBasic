@@ -282,6 +282,8 @@ section {
 			display: flex;
 			flex-direction: column;
 			.prog-title {
+				// position: absolute;
+				margin: auto;
 				text-transform: uppercase;
 				font-weight: 500;
 			}
@@ -350,7 +352,7 @@ section {
 /*Timeline*/
 .timeline {
 	display: grid;
-	grid-template-columns: repeat(2, 1fr);
+	grid-template-columns: 1fr;
 	grid-gap: 2rem;
 	padding-bottom: 3rem;
 	.timeline-item {
@@ -674,6 +676,20 @@ section {
 			transition: all 0.4s ease-out;
 		}
 	}
+}
+
+.button1 {
+	background-color: green;
+	color: black;
+	border: 1px solid var(--color-secondary);
+	border-radius: 30px;
+	width: 90px;
+	height: 30px;
+}
+
+.button1:hover {
+	background-color: blue;
+	color: white;
 }
 
 .main-title {
